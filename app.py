@@ -11,7 +11,7 @@ st.sidebar.header("Input Options")
 ticker_symbol = st.sidebar.text_input("Enter Stock Ticker Symbol", "AAPL")
 start_date = st.sidebar.date_input("Start Date", value=pd.to_datetime("2020-01-01"))
 end_date = st.sidebar.date_input("End Date", value=pd.to_datetime("today"))
-moving_avg_window = st.sidebar.slider("Moving Average Window (Days)", 5, 50, 20)
+moving_avg_window = st.sidebar.slider("Moving Average Window (Days)", 5, 200, 50)
 
 # Title
 st.title("📈 Simple Stock Prediction App")
