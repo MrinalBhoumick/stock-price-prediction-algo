@@ -1,5 +1,3 @@
-# stock-price-prediction-algo
-
 # Build the Docker image
 docker build -t stock-prediction-app .
 
